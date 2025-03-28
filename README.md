@@ -1,5 +1,4 @@
 
-
 # **Online Payments Fraud Detection Using Machine Learning**  
 
 ## **Introduction**  
@@ -28,7 +27,10 @@ Online financial transactions have significantly increased with the rise of e-co
 - **Backend**: Python (Flask)  
 - **Machine Learning**: Scikit-Learn, XGBoost, SMOTE  
 - **Database**: PostgreSQL / MySQL (optional)  
-- **Deployment**: IBM Cloud  
+- **Deployment**: Render  
+
+## **Live Deployment**  
+🔗 **Access the Live App**: [Fraud Detection Web App](https://frauddetection-flask.onrender.com/)  
 
 ## **Installation & Setup**  
 ### **Prerequisites**  
@@ -41,11 +43,11 @@ Ensure you have the following installed:
 - Pandas & NumPy (`pip install pandas numpy`)  
 - imbalanced-learn (`pip install imbalanced-learn`)  
 
-### **Steps to Run the Project**  
+### **Steps to Run the Project Locally**  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/online-fraud-detection.git
-   cd online-fraud-detection
+   git clone https://github.com/Hemachandra29/credit-card-fraud-detection-system.git
+   cd credit-card-fraud-detection-system
    ```  
 2. Install dependencies:  
    ```bash
@@ -78,8 +80,5 @@ Ensure you have the following installed:
 ⚠️ Imbalanced datasets can affect prediction quality.  
 ⚠️ Computationally intensive for large-scale data.  
 
-
-
 ## **License**  
 This project is licensed under the MIT License.  
-
